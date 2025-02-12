@@ -1,0 +1,29 @@
+{
+    "name": "storetransform/company-account-extended",
+    "description": "This Magento 2 module is the Extension of the Amasty Company Account module to support the Multiple Currencies Store Credit and giving those currencies a Base Rate to function the Currency Conversion.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+      "proprietary"
+    ],
+    "authors": [
+      {
+        "name": "Divyesh Thadani",
+        "email": "divyesh@storetransform.com"
+      }
+    ],
+    "require": {
+      "php": "^7.4 || ^8.1 || ^8.2 || ^8.3 || ^8.4",
+      "magento/framework": "^103.0",
+      "amasty/module-company-account": "~2.4"
+    },
+    "autoload": {
+      "files": [
+        "registration.php"
+      ],
+      "psr-4": {
+        "Storetransform\\Company\\": ""
+      }
+    }
+  }
+  
